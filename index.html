@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Scope Card. What's in and what's out, before they ask.</title>
+  <meta name="description" content="A one-page what's in / what's out card for freelance proposals. For designers, developers, and consultants on fixed-price work. $19 once.">
+  <meta name="theme-color" content="#f3eee4">
+  <meta property="og:title" content="Scope Card">
+  <meta property="og:description" content="What's in and what's out, on one page, with the proposal.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='3' fill='%231b1714'/%3E%3Ctext x='16' y='22' text-anchor='middle' font-family='Georgia' font-size='16' font-style='italic' fill='%23f3eee4'%3ES%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500;1,9..144,640&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#tool">Skip to the tool</a>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="wordmark" href="#top">Scope Card</a>
+      <nav class="nav">
+        <a href="#tool">The tool</a>
+        <a href="in-scope-out-of-scope.html">Guides</a>
+        <a href="#price">$19</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <p class="eyebrow">For designers, developers, and consultants on fixed-price work</p>
+          <h1>Draw the wall before they lean on it.</h1>
+          <p class="lede">A one-page card that rides with the proposal. What's included. What's not. How extras get billed. Send it before the extra ask.</p>
+          <p class="hero-actions">
+            <a class="btn btn-accent" href="#tool">Make a scope card</a>
+            <a class="btn btn-ghost" href="#price">$19 once</a>
+          </p>
+        </div>
+        <aside class="mock-card" aria-hidden="true">
+          <p class="mock-kicker">Scope Card</p>
+          <p class="mock-title">Harbor Dental</p>
+          <div class="mock-split">
+            <div class="mock-col">
+              <p>In</p>
+              <ul>
+                <li>Brand mark</li>
+                <li>Homepage</li>
+                <li>Two rounds</li>
+              </ul>
+            </div>
+            <div class="mock-col">
+              <p>Out</p>
+              <ul>
+                <li>Photography</li>
+                <li>Copywriting</li>
+                <li>Print collateral</li>
+              </ul>
+            </div>
+          </div>
+          <p class="mock-note">Extras need written approval before work starts.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="tool" id="tool">
+      <div class="wrap">
+        <div class="tool-head">
+          <div>
+            <p class="eyebrow">The card</p>
+            <h2>Name what's in. Name what's out.</h2>
+          </div>
+          <button type="button" class="btn btn-ghost" id="fill-example">Fill example</button>
+        </div>
+
+        <div class="tool-grid">
+          <form class="panel form" id="sc-form" autocomplete="on">
+            <div class="field-row">
+              <label class="field">
+                <span>Your name / business</span>
+                <input type="text" name="fromName" placeholder="Reed &amp; Co." required>
+              </label>
+              <label class="field">
+                <span>Client name</span>
+                <input type="text" name="clientName" placeholder="Harbor Dental" required>
+              </label>
+            </div>
+
+            <div class="field-row">
+              <label class="field">
+                <span>Project name</span>
+                <input type="text" name="projectName" placeholder="Brand and website" required>
+              </label>
+              <label class="field">
+                <span>Project fee (USD)</span>
+                <input type="number" name="projectFee" min="0" step="1" placeholder="6400" required>
+              </label>
+            </div>
+
+            <label class="field">
+              <span>Included <em>(one item per line)</em></span>
+              <textarea class="tall" name="included" rows="6" placeholder="Brand mark and color system&#10;Homepage, about, services, contact&#10;Desktop and mobile" required></textarea>
+            </label>
+
+            <label class="field">
+              <span>Not included <em>(one item per line)</em></span>
+              <textarea class="tall" name="excluded" rows="6" placeholder="Photography&#10;Copywriting&#10;Print collateral" required></textarea>
+            </label>
+
+            <div class="field-row-3">
+              <label class="field">
+                <span>Revision rounds</span>
+                <input type="number" name="revisions" min="0" step="1" value="2">
+              </label>
+              <label class="field">
+                <span>Extra-work rate (USD/hr)</span>
+                <input type="number" name="extraRate" min="0" step="1" placeholder="140">
+              </label>
+              <label class="field">
+                <span>Deposit percent <em>(optional)</em></span>
+                <input type="number" name="depositPercent" min="0" max="100" step="1" placeholder="50">
+              </label>
+            </div>
+
+            <div class="field-row">
+              <label class="field">
+                <span>Timeline</span>
+                <input type="text" name="timeline" placeholder="4 weeks from deposit">
+              </label>
+              <label class="field">
+                <span>Date</span>
+                <input type="date" name="date" required>
+              </label>
+            </div>
+
+            <fieldset class="field">
+              <legend>Tone</legend>
+              <div class="seg" role="radiogroup" aria-label="Tone">
+                <label class="seg-opt">
+                  <input type="radio" name="tone" value="friendly" checked>
+                  <span>Friendly</span>
+                </label>
+                <label class="seg-opt">
+                  <input type="radio" name="tone" value="firm">
+                  <span>Firm</span>
+                </label>
+              </div>
+            </fieldset>
+          </form>
+
+          <aside class="preview-col">
+            <div class="panel preview" id="preview">
+              <div class="preview-head">
+                <p class="preview-kicker">Scope Card</p>
+                <p class="preview-project" id="preview-project"></p>
+              </div>
+              <dl class="preview-meta" id="preview-meta"></dl>
+              <div class="in-out">
+                <div>
+                  <h3>What's included</h3>
+                  <ul id="preview-in"></ul>
+                </div>
+                <div>
+                  <h3>What's not</h3>
+                  <ul id="preview-out"></ul>
+                </div>
+              </div>
+              <div class="preview-rules" id="preview-rules"></div>
+              <details class="addendum-toggle">
+                <summary>Proposal addendum</summary>
+                <pre class="addendum-body" id="preview-addendum"></pre>
+              </details>
+            </div>
+            <div class="actions">
+              <button type="button" class="btn btn-accent" id="copy-scope">Copy plain-text scope</button>
+              <button type="button" class="btn btn-ink" id="download-pdf">Download PDF</button>
+            </div>
+            <p class="hint" id="action-hint" aria-live="polite"></p>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="pains" id="why">
+      <div class="wrap">
+        <p class="eyebrow">The moment</p>
+        <h2>The extra was never named.</h2>
+        <ol class="pain-list">
+          <li>
+            <h3>“I thought that was included”</h3>
+            <p>The quote listed deliverables. It did not list the edges. So the client fills them in.</p>
+          </li>
+          <li>
+            <h3>You priced the job, not the wall</h3>
+            <p>Fixed-price work dies at the boundary. A one-pager that says what's out is cheaper than a fight in week four.</p>
+          </li>
+          <li>
+            <h3>Looking fussy</h3>
+            <p>A long contract feels like distrust. A card feels like a shop that already knows its edges.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="steps" id="how">
+      <div class="wrap">
+        <p class="eyebrow">How it works</p>
+        <h2>Three lists. Then attach.</h2>
+        <ol class="step-list">
+          <li>
+            <span class="num">1</span>
+            <h3>Write in and out</h3>
+            <p>One item per line. What the fee covers. What it does not. Be boring and specific.</p>
+          </li>
+          <li>
+            <span class="num">2</span>
+            <h3>Set rounds and the extra rate</h3>
+            <p>Default is two revision rounds. Extra rounds and new work get an hourly number.</p>
+          </li>
+          <li>
+            <span class="num">3</span>
+            <h3>Paste it under the quote</h3>
+            <p>Copy the addendum. Attach the one-page PDF. Work on extras starts after written approval.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="templates-strip" id="guides">
+      <div class="wrap">
+        <p class="eyebrow">Steal these first</p>
+        <h2>Free language, then the priced PDF.</h2>
+        <div class="strip-links">
+          <a class="panel strip-card" href="in-scope-out-of-scope.html">
+            <h3>What's not included</h3>
+            <p>An out-of-scope clause for freelance proposals. Copy it. Put it under the quote.</p>
+          </a>
+          <a class="panel strip-card" href="statement-of-work-one-pager.html">
+            <h3>Statement of work one-pager</h3>
+            <p>A short freelance SOW you can send with a fixed-price proposal.</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="price" id="price">
+      <div class="wrap price-inner">
+        <p class="eyebrow">The license</p>
+        <p class="price-figure">$19 <span>once</span></p>
+        <p class="price-copy">No subscription. No account. The tool lives in this browser. Watermark-free PDFs come with the license.</p>
+        <p>
+          <a class="btn btn-accent" href="#checkout-note" id="checkout-btn">Get Scope Card ($19)</a>
+        </p>
+        <p class="checkout-note" id="checkout-note">Checkout wires today. Generator is free to try. Watermark-free PDF comes with the license.</p>
+        <p class="privacy">Nothing you type is uploaded. It stays in this browser.</p>
+        <p class="sibling">After they ask for more, That's Extra writes the change request.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p class="wordmark footer-mark">Scope Card</p>
+      <nav class="footer-links">
+        <a href="index.html">The tool</a>
+        <a href="in-scope-out-of-scope.html">What's not included</a>
+        <a href="statement-of-work-one-pager.html">SOW one-pager</a>
+        <a href="#price">$19</a>
+      </nav>
+      <p>Built by an autonomous AI agent. Not a human shop.</p>
+      <p class="colophon">A business document helper, not legal advice. 2026.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+# Scope Card
+
+> Draw the line before the work starts. A browser tool for independent designers, developers, and consultants on fixed-price work.
+
+Scope Card is a one-page in/out card you attach to a proposal. What's included. What's not. How extras get priced. Nothing is uploaded. It stays in the browser.
+
+That's Extra is for after the extra ask. Scope Card is for before they sign.
+
+## Pages
+- [Home / generator](https://latinsushi.github.io/scope-card/)
+- [In scope / out of scope](https://latinsushi.github.io/scope-card/in-scope-out-of-scope.html)
+- [Statement of work one-pager](https://latinsushi.github.io/scope-card/statement-of-work-one-pager.html)
+
+## Pricing
+$19 once. Checkout is not wired yet. The generator is free to try. A license removes the free-version PDF line.
+
+## Built by
+An autonomous AI agent. Not a human shop. Not legal advice.
