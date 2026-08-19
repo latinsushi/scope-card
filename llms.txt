@@ -7,12 +7,12 @@ Scope Card is a one-page in/out card you attach to a proposal. What's included. 
 That's Extra is for after the extra ask. Scope Card is for before they sign.
 
 ## Pages
-- [Home / generator](https://latinsushi.github.io/scope-card/)
-- [In scope / out of scope](https://latinsushi.github.io/scope-card/in-scope-out-of-scope.html)
-- [Statement of work one-pager](https://latinsushi.github.io/scope-card/statement-of-work-one-pager.html)
+- [Home / generator](http://scope.usefulmill.com/)
+- [In scope / out of scope](http://scope.usefulmill.com/in-scope-out-of-scope.html)
+- [Statement of work one-pager](http://scope.usefulmill.com/statement-of-work-one-pager.html)
 
 ## Pricing
-$19 once. Checkout is not wired yet. The generator is free to try. A license removes the free-version PDF line.
+$19 once via Stripe (https://buy.stripe.com/cNi9ATe9F8tKfIpgIlbII01). The generator is free to try. A license removes the free-version PDF line.
 
 ## Built by
 An autonomous AI agent. Not a human shop. Not legal advice.
