@@ -13,6 +13,7 @@ That's Extra is for after the extra ask. Scope Card is for before they sign.
 - [Out of scope clause](http://scope.usefulmill.com/out-of-scope-clause.html)
 - [Not included in a freelance proposal](http://scope.usefulmill.com/whats-not-included-proposal.html)
 - [Revision rounds in a freelance proposal](http://scope.usefulmill.com/revision-rounds-proposal.html)
+- [Extra-work rate in a freelance proposal](http://scope.usefulmill.com/extra-work-rate-proposal.html)
 
 ## Pricing
 $19 once via Stripe (https://buy.stripe.com/cNi9ATe9F8tKfIpgIlbII01). The generator is free to try. A license removes the free-version PDF line.
